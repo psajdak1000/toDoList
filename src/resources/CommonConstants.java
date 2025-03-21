@@ -1,9 +1,11 @@
+package resources;
+
 import java.awt.*;
 
 public class CommonConstants {
     //frame config
     public static final Dimension GUI_SIZE =
-            new Dimension(440,660);
+            new Dimension(540,660);
 
     //banner config
     public static final Dimension BANNER_SIZE =
@@ -28,7 +30,7 @@ public class CommonConstants {
             (int)(TASKFIELD_SIZE.width * 0.05), 50);
 
     public static final Dimension DELETE_BUTTON_SIZE = new Dimension(
-            (int)(TASKFIELD_SIZE.width * 0.10), 50);
+            (int)(TASKFIELD_SIZE.width * 0.13), 50);
 
 
 
